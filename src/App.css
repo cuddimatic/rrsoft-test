@@ -1,0 +1,155 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar_wrapper {
+  position: absolute;
+  top: 0;
+  padding: 1rem 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  align-items: center;
+  margin: auto;
+}
+
+.navbar_wrapper a {
+  color: #fff;
+}
+
+.navbar_wrapper a:hover {
+  color: #fff;
+}
+
+.search_wrapper {
+  position: fixed;
+  top: 9rem;
+  left: 0;
+  right: 0;
+}
+
+.list_section ul {
+  margin-bottom: 15rem;
+}
+
+.search_wrapper .artcles_input {
+  height: 50px;
+  padding: 1rem 0;
+}
+
+.search_wrapper button {
+  width: 160px;
+  font-size: 16px;
+  height: 100%;
+  background: blue;
+}
+
+.search_wrapper button:focus {
+  outline: none;
+}
+
+.search_wrapper input {
+  width: 400px;
+  height: 100%;
+  text-indent: 18px;
+  border-radius: 10px;
+  background: #c4c4c4;
+  font-size: 16px;
+  border: 0;
+  margin-right: 15px;
+  color: #000;
+  font-weight: 600;
+}
+
+.search_wrapper input::placeholder {
+  color: #000;
+}
+
+.list_section {
+  overflow: auto;
+  height: 80vh;
+}
+
+.list_section li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 43%;
+  margin: auto;
+  border: 1px solid;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.list_section li  p {
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+  opacity: .5;
+  color: #000;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 5px;
+}
+form .form_flex {
+  display: flex;
+  gap: 1rem;
+}
+
+form .error {
+  color: red;
+  margin: 0;
+  text-align: left;
+}
+form input {
+  width: 400px;
+  height: 50px;
+  text-indent: 18px;
+  border-radius: 10px;
+  background: #c4c4c4;
+  font-size: 16px;
+  border: 0;
+  margin-right: 15px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+form .form_flex:nth-child(2) {
+  display: block;
+  align-self: flex-end;
+}
+
+form textarea {
+  width: 96%;
+  background: #c4c4c4;
+  border-radius: 10px;
+  padding: 18px;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+form button {
+  background: blue;
+  height: 50px;
+}
